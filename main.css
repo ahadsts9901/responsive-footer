@@ -1,0 +1,41 @@
+/* all elements */
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold!important;
+    outline: none!important;
+    box-sizing: border-box!important;
+    border: 0px!important;
+    text-decoration: none!important;
+    font-style: normal!important;
+}
+
+i,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0em!important;
+}
+
+
+/* body */
+
+body {
+    background-color: #ee5676!important;
+    /* color: #112233!important; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: right;
+    /* justify-content: space-between; */
+    align-items: center;
+    row-gap: 1em;
+    width: 100vw;
+    height: 100vh;
+    margin: 0em!important;
+}
